@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-boxs;
+}
+.container-inicio{
+    padding: 10px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+.inicio-detalles h3{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.inicio-parrafo{
+    padding: 10px;
+}
+.inicio-imagen img{
+    width: 250px;
+    height: 200px;
+}
+.inicio-boton{
+    padding: 10px;
+    align-items: center;
+}
+.inicio-boton button{
+    background-color: rgb(241, 148, 8);
+    border-radius: 8px;
+    border: transparent;
+    color: white;
+    width: 75%;
+    box-shadow: 5px 10px 20px hsl(245, 75%, 90%);
+    font-weight: 900;
+    font-size: 18px;
+}
+h2{
+    padding: 10px;
+}
+.ourService-item{
+    position: relative;
+}
+.container-ourService{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    padding: 5px;
+    gap: 8px;
+}
+.ourService-item img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.ourService-item div{
+    position: absolute;
+    top: 85%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container-menu{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 250px;
+    gap: 10px;
+    position: relative;
+}
+.container-menu img{
+    width: 250px;
+    height: 250px;
+    
+}
+.container-menu div > svg{
+    border-radius: 8px;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: rgb(195, 196, 196);
+    top: 5%;
+}
